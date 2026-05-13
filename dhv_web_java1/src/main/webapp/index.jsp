@@ -1,21 +1,37 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title> Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Document </title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+    <div id="calculator">
+        <input id="display" readonly>
+    <div id="keys">
+    
+            <div><button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('7')">7</button> 
+            <button onclick="appendToDisplay('8')">8</button> 
+            <button onclick="appendToDisplay('9')">9</button> 
+            <div><button onclick="appendToDisplay('-')">-</button> 
+            <button onclick="appendToDisplay('4')">4</button> 
+            <button onclick="appendToDisplay('5')">5</button> 
+            <button onclick="appendToDisplay('6')">6</button> 
+            <div><button onclick="appendToDisplay('*')">*</button> 
+            <button onclick="appendToDisplay('1')">1</button> 
+            <button onclick="appendToDisplay('2')">2</button> 
+            <button onclick="appendToDisplay('3')">3</button> 
+            <div><button onclick="appendToDisplay('/')">/</button> 
+            <button onclick="appendToDisplay('0')">0</button> 
+            <div><button onclick="calculate()">=</button> 
+            <div><button onclick="clearDisplay()">C</button> 
+            </div>
+    </div>
 
-<h1 style="color: red">Xin chào các bạn CT07</h1>
-<h2 style="font-family: Verdana; color:green">Xin chào các bạn CT0;
-<h3>Xin chào các bạn Ct07</h3>
-<h4>Xin chào các bạn Ct07</h4>
-<h5>Xin chào các bạn Ct07</h5>
-<h6>Xin chào các bạn Ct07</h6>
-<p> This is a paragraph.</p>
 
-
-
-
+    <script src="index.js"></script>
 </body>
 </html>
